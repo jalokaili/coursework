@@ -1,0 +1,43 @@
+	push _x
+	load
+	push $true_branch_0
+	jump_z
+	push _x
+	load
+	push 7
+	sub
+	push _x
+	store
+	push _x
+	load
+	push 13
+	sub
+	push $true_branch_2
+	jump_z
+	push _x
+	load
+	push 3
+	sysc
+	push 2
+	sysc
+	push $if_end_3
+	jump
+$true_branch_2:
+	push 88
+	push 3
+	sysc
+	push 2
+	sysc
+$if_end_3:
+	push $if_end_1
+	jump
+$true_branch_0:
+	push 99
+	push 3
+	sysc
+	push 2
+	sysc
+$if_end_1:
+	halt
+.data
+_x: 20

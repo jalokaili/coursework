@@ -1,0 +1,64 @@
+	push 'T'
+	push 1
+	sysc
+	push 'o'
+	push 1
+	sysc
+	push ' '
+	push 1
+	sysc
+	push 'B'
+	push 1
+	sysc
+	push 'e'
+	push 1
+	sysc
+	push ','
+	push 1
+	sysc
+	push ' '
+	push 1
+	sysc
+	push 'o'
+	push 1
+	sysc
+	push 'r'
+	push 1
+	sysc
+	push ' '
+	push 1
+	sysc
+	push 'n'
+	push 1
+	sysc
+	push 'o'
+	push 1
+	sysc
+	push 't'
+	push 1
+	sysc
+	push ' '
+	push 1
+	sysc
+	push 'T'
+	push 1
+	sysc
+	push 'o'
+	push 1
+	sysc
+	push ' '
+	push 1
+	sysc
+	push 'B'
+	push 1
+	sysc
+	push 'e'
+	push 1
+	sysc
+	push '?'
+	push 1
+	sysc
+	push 2
+	sysc
+	halt
+.data

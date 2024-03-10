@@ -1,0 +1,20 @@
+	push 6
+	push _x
+	load
+	push 9
+	sub
+	add
+	push 7
+	div
+	push _y
+	store
+	push _y
+	load
+	push 3
+	sysc
+	push 2
+	sysc
+	halt
+.data
+_x: 72
+_y: 0
